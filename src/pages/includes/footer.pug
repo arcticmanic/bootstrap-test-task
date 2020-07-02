@@ -1,0 +1,27 @@
+footer
+  .row
+    .col-md-4
+      .block.block-10.block-dark-grey
+        ul.list-unstyled
+          - for (var x = 1; x <= 14; x++)
+            li #[a(href="#") Пункт #{ x<10 ? '0'+x : x }]
+    .col-md-4
+      .block.block-11.block-dark-grey
+        ul.list-unstyled
+          li
+            a(href="#") Поисковое продвижение сайтов
+          li
+            a(href="#") Тариф «Старт»
+          li
+            a(href="#") Тариф «Продвижение Плюс»
+          li
+            a(href="#") Тариф «Интернет-магазин»
+          li
+            a(href="#") Тариф «Эксклюзив»
+          li
+            a(href="#") Тариф «Контекст + SEO»
+          li
+            a(href="#") Тариф «Регион»
+    .col-md-4.col-flex
+      .col-12.align-self-start.block.block-12.block-dark-grey
+      .col-12.align-self-end.block.block-13.block-dark-grey

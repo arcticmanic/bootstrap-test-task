@@ -1,0 +1,43 @@
+.head {
+  margin-top: 24px;
+  margin-bottom: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 100;
+  background: $base-white;
+
+  .block-dark-grey {
+    min-height: 108px;
+    color: $base-white;
+    padding: 25px;
+  }
+
+  .header-contacts {
+    text-align: right;
+  }
+
+  .header-contacts-phone {
+    color: $base-white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+  }
+
+  .header-contacts-email {
+    color: $base-white;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: underline;
+    text-align: right;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: $line-color;
+    margin-top: 22px;
+  }
+}

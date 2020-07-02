@@ -1,0 +1,26 @@
+footer {
+  margin-bottom: 35px;
+
+  &:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 33px;
+    background-color: $line-color;
+  }
+
+  .col-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col-md-4 {
+    margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+}
